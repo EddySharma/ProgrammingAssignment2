@@ -9,7 +9,7 @@ makeCacheMatrix <- function(x = matrix()) {
     ## Declare another function where value will be cached in
     set <- function(y){                     
         x <<- y
-        ## To change the value of inverse of matrix if matrix had changed
+        ## To change the value of inverse of matrix if matrix has changed
         m <- NULL
     }
     ## Get the value of inverse
